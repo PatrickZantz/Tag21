@@ -8,3 +8,34 @@
     display: flex;
 
 }
+
+.title {
+    color: #0066ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container2 {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.slider {
+    width: 300px;
+    margin: 20px 0;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

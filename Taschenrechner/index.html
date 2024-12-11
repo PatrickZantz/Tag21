@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <article>
+      <h2>Forms-JS-Level-1_1</h2>
+      <form onsubmit="verdoppleMich(); return false">
+        <input type="number" id="number" />
+        <input type="submit" value="verdopple mich" />
+        <div class="login-feedback">test</div>
+      </form>
+    </article>
+
+    <article>
+      <h2>Forms-JS-Level-1_2</h2>
+    </article>
+    <article>
+      <h2>Forms-JS-Level-1_3</h2>
+    </article>
+
+    <!-- <article class="login">
+      <h2>Login</h2>
+      <form onsubmit="checkUserData(); return false">
+        <label for="username">Username:</label>
+        <input type="text" id="username" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" />
+        <input type="submit" value="login" />
+        <div class="login-feedback"></div>
+      </form>
+    </article> -->
+
+    <section class="calculator">
+      <h2>Taschenrechner</h2>
+      <div class="calculator__display">0</div>
+      <div class="result">0</div>
+      <div class="calculator__keys">
+        <button
+          class="calculator__key calculator__key--operator"
+          data-action="add"
+        >
+          +
+        </button>
+        <button
+          class="calculator__key calculator__key--operator"
+          data-action="subtract"
+        >
+          -
+        </button>
+        <button
+          class="calculator__key calculator__key--operator"
+          data-action="multiply"
+        >
+          &times;
+        </button>
+        <button
+          class="calculator__key calculator__key--operator"
+          data-action="divide"
+        >
+          ÷
+        </button>
+        <button class="calculator__key">7</button>
+        <button class="calculator__key">8</button>
+        <button class="calculator__key">9</button>
+        <button class="calculator__key">4</button>
+        <button class="calculator__key">5</button>
+        <button class="calculator__key">6</button>
+        <button class="calculator__key">1</button>
+        <button class="calculator__key">2</button>
+        <button class="calculator__key">3</button>
+        <button class="calculator__key">0</button>
+
+        <button class="calculator__key" data-action="decimal">.</button>
+        <button class="calculator__key" data-action="clear">AC</button>
+
+        <button
+          class="calculator__key calculator__key--enter"
+          data-action="calculate"
+        >
+          =
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
